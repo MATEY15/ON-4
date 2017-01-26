@@ -1045,3 +1045,56 @@ form input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3
 .razr a {
 	color: #8aaf28;
 }
+
+/* О нас */
+
+ul li {
+	list-style: none;
+}
+
+.name-page {
+	background: #f3f8fa;
+	padding: 112px 0 20px 0;
+	border-bottom: 1px solid #e4eef2;
+}
+
+.name-page h1 {
+	font: 43px/normal "Panton-ExtraBold";
+	color: #293c57;
+	text-transform: uppercase;
+}
+
+.breadcrumbs {
+	background: #f9fdff;
+	padding: 18px 0 18px 0;
+	border-bottom: 1px solid #d7dcdf;
+	//-webkit-box-shadow: 1px 0 2px 2px #000;
+	//-moz-box-shadow: 1px 0 2px 2px #000;
+	//box-shadow: 1px 0 2px 2px #000;
+}
+
+.breadcrumbs ul li {
+	font: 14px/normal "RobotoLight";
+	color: #3f4855;
+	display: inline-block;
+	position: relative;
+	padding-right: 10px;
+}
+
+.breadcrumbs ul li:before {
+	content: "/";
+	display: block;
+	position: absolute;
+	right: 0;
+}
+
+.breadcrumbs ul li:last-child:before {
+	display: none;
+}
+
+.breadcrumbs ul li a {
+	text-decoration: none;
+	color: #5d7614;
+}
+
+/* О нас and */
