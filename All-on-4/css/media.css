@@ -1,0 +1,452 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1280px) {
+	body {
+		zoom: .9;
+	}
+	.header_main {
+		padding: 55px 0 100px 50px;
+	}
+	.pl80 {
+		padding-left: 50px !important;
+	}
+	.otziv_client {
+		overflow-x: hidden;
+	}
+	footer .row,
+	.header_main .row,
+	main .row {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.pl80 {
+		padding-left: 50px !important;
+	}
+	.row {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+	.sertificate img {
+		width: 100%;
+	}
+	.sertificate .col-md-2 {
+		padding: 0 !important;
+	}
+	.header_main {
+		padding: 114px 0 110px 50px;
+	}
+	.header_main h1 {
+		font: 36px/60px "Panton-ExtraBold";
+	}
+	.smi p br {
+		display: none;
+	}
+	.otziv_client {
+		overflow-x: hidden;
+	}
+	.otziv_client .slick-slide {
+		padding: 0 5px !important;
+	}
+	.top_style_bg{
+		width: 75% !important;
+	}
+	.what_is_all {
+		background-position-x: 580px;
+	}
+	.advantage h3 br,
+	.tehnology_all_4 h3 br,
+	.otziv_client p br {
+		display: none;
+	}
+	.item_advence {
+		min-height: 390px;
+	}
+	.slider-nav.slick-initialized.slick-slider .slick-list {
+		overflow: hidden !important;
+	}
+	.otziv_client .slick-slide.slick-current.slick-active {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	ul.slick-dots {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width : 1060px) {
+	.pl80 {
+		padding-left: 20px !important;
+	}
+	.header_main {
+		padding: 50px 0 65px 20px;
+		background-image: none;
+		background: #dbe6ec;
+	}
+	.top_style_bg {
+		width: 90% !important;
+	}
+	.what_is_md {
+		width: 75%;
+	}
+	.wrappe_menu {
+		max-width: 240px;
+	}
+	.wrapper_contant {
+		margin-left: 240px;
+	}
+	.advantage .col-md-3 {
+		width: 33%;
+	}
+	.otziv_client p {
+		font: 18px/normal "RobotoLight";
+		margin-top: 32px;
+	}
+	button.slick-prev.slick-arrow {
+		left: -16px;
+	}
+	.slider-nav-smi .slick-slide {
+		padding: 0 10px;
+	}
+	.slider-nav-smi .slick-slide img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 1024px){
+	body {
+		zoom: 1;
+	}
+	.what_are_you {
+		background-image: none;
+		background: #4e4e4e;
+	}
+	p.sert_txt br {
+		display: none;
+	}
+	p.sert_txt span {
+		display: block;
+	}
+	.metod_all_on_4 {
+		padding: 38px 0 60px;
+	}
+	.what_are_you {
+		padding: 55px 0 35px;
+	}
+	.sertificate .col-md-2 {
+		width: 25%;
+		padding: 0 15px !important;
+	}
+	.sertificate img {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width : 1004px){
+	.priziv .col-md-3 {
+		width: 33%;
+	}
+	.what_is_all4 {
+		padding: 55px 0 50px;
+	}
+	.stl_width_tbl {
+		width: 100%;
+	}
+	.table_styl:before {
+		display: none;
+	}
+	.sertificate {
+		padding: 55px 0 65px;
+	}
+	.tehnology_all_4 {
+		padding-top: 65px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px) {
+	.priziv .col-md-3 {
+		width: 33%;
+		float: left;
+	}
+	.advantage .col-md-3 {
+		width: 33%;
+		float: left;
+	}
+	.what_are_you h3 {
+		font-size: 25px;
+	}
+	.sertificate .col-md-2 {
+		width: 25%;
+		padding: 0 10px !important;
+		float: left;
+	}
+	.slider-smi .col-md-6 img {
+		margin: 10px auto;
+	}
+	.head_adress {
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width : 960px){
+	.what_is_md {
+		width: 85%;
+	}
+	.sertificate p {
+		margin-left: 15px;
+	}
+}
+
+@media only screen and (max-width : 940px){
+	.top_style_bg {
+		width: 100% !important;
+	}
+	.advantage h3, .metod_all_on_4 h3 {
+		font: 26px/38px "Panton-SemiBold";
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.advantage h3, .metod_all_on_4 h3 {
+		font: 24px/38px "Panton-SemiBold";
+	}
+}
+
+@media only screen and (max-width : 854px){
+	.header_main h1 {
+		font: 30px/50px "Panton-ExtraBold";
+	}
+	span.slog_top br {
+		display: none;
+	}
+	.what_is_md {
+		width: 100%;
+	}
+	.advantage h3, .metod_all_on_4 h3 {
+		font: 22px/38px "Panton-SemiBold";
+	}
+	.advantage .col-md-3 {
+		width: 50%;
+		float: left;
+	}
+	.item_advence {
+		min-height: 340px;
+	}
+	.what_are_you h3 {
+		font-size: 20px;
+		margin-left: 15px;
+	}
+	.what_is_all4 h2, 
+	.tehnology_all_4 h3,
+	.otziv_client h3, 
+	.adress h3, 
+	.smi h3 {
+		font: 35px/normal "Panton-ExtraBold";
+	}
+}
+
+@media only screen and (max-width : 800px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.closed_menu{
+		display: block;
+	}
+	.wrappe_menu {
+		margin-left: -260px;
+	}
+	.wrapper_contant {
+		margin-left: 0px;
+	}
+	.wrappe_menu.menu_open {
+		margin-left: 0px !important;
+	}
+	.what_is_all {
+		background-image: none;
+	}
+	.pl80 {
+		padding-left: 15px !important;
+	}
+	.header_main {
+		padding: 50px 0 65px 15px;
+	}
+}
+
+@media only screen and (max-width : 720px){
+
+}
+
+@media only screen and (max-width : 640px){
+	.sertificate .col-md-2 {
+		width: 33%;
+		padding: 0 10px !important;
+		float: left;
+	}
+}
+
+@media only screen and (max-width : 600px){
+
+}
+
+@media only screen and (max-width : 540px){
+	.pl80 {
+		padding-left: 0px !important;
+	}
+	.header_main {
+		padding: 50px 0 65px 0px;
+	}
+	.tugl_menu {
+		left: 15px;
+	}
+}
+
+@media only screen and (max-width : 480px){
+	.header_main h1 {
+		font: 26px/50px "Panton-ExtraBold";
+	}
+	.buttom_style {
+		font-size: 12px;
+	}
+	.priziv .col-md-3 {
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.what_is_all4 h2, .tehnology_all_4 h3, .otziv_client h3, .adress h3, .smi h3 {
+		font: 30px/normal "Panton-ExtraBold";
+	}
+	button.slick-prev.slick-arrow {
+		left: 5px;
+	}
+	.button_two {
+		margin: 0 auto;
+	}
+	.footer .col-md-6:first-child {
+		width: 100% !important;
+	}
+	.footer .col-md-6:last-child {
+		display: none;
+	}
+	.otziv_client {
+		padding: 40px 0 45px;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.buttom_style:before {
+		display: none;
+	}
+	.buttom_style {
+		padding-left: 0;
+		margin: 0 auto;
+		display: block;
+	}
+	.buttom_style {
+		font-size: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	.advantage .col-md-3 {
+		width: 100%;
+		float: left;
+	}
+	.table_styl tr th, .table_styl tr td {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.table_styl tr td span {
+		padding-left: 0;
+	}
+	.table_styl tr td span:before {
+		display: none;
+	}
+	.table_styl td {
+		font-size: 14px;
+	}
+	.table_styl tr th:first-child, .table_styl tr td:first-child {
+		width: 50%;
+	}
+	.slider_opaciti button.slick-next.slick-arrow {
+		right: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.header_main h1 {
+		font: 24px/45px "Panton-ExtraBold";
+	}
+	.header_main h1 br {
+		display: none;
+	}
+	.buttom_style {
+		font-size: 9px;
+	}
+	.sertificate p {
+		font-size: 18px;
+	}
+	.sertificate p br {
+		display: none;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 901px){
+	
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+	
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
