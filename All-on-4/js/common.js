@@ -1,5 +1,34 @@
 $(document).ready(function() {
 
+
+	$(".accordeon dd").hide().prev().click(function() {
+		$(this).parents(".accordeon").find("dd").not(this).slideUp().prev().removeClass("active");
+		$(this).next().not(":visible").slideDown().prev().addClass("active");
+	});
+	$(".accordeon dd").first().show();
+
+	$(".tab_item").not(":first").hide();
+	$(".our-team-wrapper .tab").click(function() {
+		$(".our-team-wrapper .tab").removeClass("activ").eq($(this).index()).addClass("activ");
+		$(".tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("activ");
+
+	$('.our-team-wrapper').slick({
+		infinite: false,
+		slidesToShow: 5,
+		slidesToScroll: 1
+	});
+
+	$('.price-slide').slick({
+		dots: true,
+		infinite: true,
+		speed: 1000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 6000
+	});
+
 	jQuery(document).ready(function($) {
 		function animateElements() {
 			$('.pr-chart-ctrl').each(function() {
@@ -9,11 +38,11 @@ $(document).ready(function() {
 				if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
 					$(this).data('animate', true);
 					$(this).find('.pr-chart').easyPieChart({
-						size: 200,
-						barColor: '#fff',
-						trackColor: false,
+						size: 100,
+						barColor: '#8aaf28',
+						trackColor: '#dce6ec',
 						scaleColor: false,
-						lineWidth: 15,
+						lineWidth: 6,
 						lineCap: 'butt',
 						animate: 1500,
 						onStep: function(from, to, percent) {
@@ -34,7 +63,7 @@ $(document).ready(function() {
 		$(".wrappe_menu").removeClass("menu_open");
 	});
 
-	$(".item_img").magnificPopup({
+	$(".item_img, .popup_img").magnificPopup({
 		type: 'image',
 		gallery:{
 			enabled: true
