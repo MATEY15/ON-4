@@ -265,6 +265,11 @@ ul.green li a i {
 	width: 100%;
 }
 
+.wrapper_contant_1110 {
+	max-width: 1110px;
+	width: 100%;
+}
+
 .contact_mnu {
 	padding-left: 20px;
 	margin-top: 36px;
@@ -1932,4 +1937,78 @@ tr .sub-th:last-child {
 	text-align: center;
 	display: block;
 	margin: 44px auto 0;
+}
+
+.right-sidebar {
+	background: #f3f8fa;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.right-sidebar h3 {
+	font: 18px/normal "Panton-ExtraBold";
+	color: #293c57;
+	text-transform: uppercase;
+	background: #ecf2f4;
+	padding: 15px 0 14px 18px;
+}
+
+.right-sidebar li {
+	border-bottom: 1px solid #e1ecf0;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.right-sidebar li:last-child {
+	border-bottom: 0;
+}
+
+.right-sidebar li:hover {
+	background: #e8eff3;
+}
+
+.right-sidebar li:hover a {
+	color: #293c57;
+}
+
+.right-sidebar li a {
+	font: 12px/normal "RobotoRegular";
+	color: #7c9eab;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 13px 0 13px 18px;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.right-sidebar li a i {
+	font-size: 15px;
+}
+
+.post-date {
+	font: 12px/normal "Panton-Bold";
+	color: #8aaf28;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 13px;
+}
+
+.post-page h1 {
+	font: 26px/normal "Panton-Bold";
+	color: #293c57;
+	text-transform: uppercase;
+	margin-bottom: 26px;
+}
+
+.post-page img {
+	margin-bottom: 26px;
+}
+
+.post-page p {
+	font: 16px/26px "RobotoLight";
+	color: #647182;
+	margin-bottom: 25px;
 }
