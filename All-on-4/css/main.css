@@ -358,6 +358,10 @@ ul.green li a i {
 	margin-left: 268px;
 }
 
+.result-contant-img {
+	padding: 0 !important;
+}
+
 /* HEADER =========================
 ==============================================*/
 
@@ -1281,6 +1285,20 @@ ul li {
 	//border-right: 2px dotted #000;
 }
 
+.activ .tab-text:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 15px solid #8bad35;
+	bottom: -10px;
+	left: 50%;
+	margin-left: -30px;
+}
+
 .tab-text:before {
 	content: "";
 	display: block;
@@ -1716,6 +1734,7 @@ ol.list-number li::before {
 .table-price-tbody td .check-ok {
 	position: relative;
 	padding-left: 27px;
+	display: inline-block;
 }
 
 .table-price-tbody td .check-ok:before {
@@ -1740,7 +1759,7 @@ ol.list-number li::before {
 
 .sub-th {
 	font: 15px/normal "Panton-Regular";
-	font-style: 400px;
+	font-style: 400;
 	color: #9c9c9c;
 	border-radius: 0 !important;
 	background: #414141;

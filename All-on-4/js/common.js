@@ -13,11 +13,7 @@ $(document).ready(function() {
 		$(".tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("activ");
 
-	$('.our-team-wrapper').slick({
-		infinite: false,
-		slidesToShow: 5,
-		slidesToScroll: 1
-	});
+	
 
 	$('.price-slide').slick({
 		dots: true,
@@ -107,11 +103,69 @@ $(document).ready(function() {
 		]
 	});
 
+	$('.our-team-wrapper').slick({
+		infinite: false,
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1681,
+			settings: {
+				slidesToShow: 5,
+			}
+		},
+		{
+			breakpoint: 1485,
+			settings: {
+				slidesToShow: 4,
+			}
+		},
+		{
+			breakpoint: 1061,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 901,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 769,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 541,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+			}
+		},
+		]
+	});
+
 	$('.slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
-		asNavFor: '.slider-nav'
+		asNavFor: '.slider-nav',
+		responsive: [
+		{
+			breakpoint: 541,
+			settings: {
+				arrows: false
+			}
+		},
+		]
 	});
 	$('.slider-nav').slick({
 		slidesToShow: 10,
@@ -131,6 +185,13 @@ $(document).ready(function() {
 			breakpoint: 981,
 			settings: {
 				slidesToShow: 6
+			}
+		},
+		{
+			breakpoint: 541,
+			settings: {
+				slidesToShow: 5,
+				arrows: false
 			}
 		},
 		{

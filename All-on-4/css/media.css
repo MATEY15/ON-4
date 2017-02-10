@@ -1,5 +1,24 @@
 /*==========  Desktop First Method  ==========*/
 
+@media only screen and (max-width : 1366px) {
+	.slick-slide img {
+		width: 100%;
+	}
+	header .row,
+	footer .row,
+	.header_main .row,
+	main .row {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+	.price-slide.slick-initialized.slick-slider {
+		padding: 0 60px 0 0;
+	}
+	.price-implant {
+		padding: 0 15px 0 0;
+	}
+}
+
 @media only screen and (max-width : 1280px) {
 	body {
 		zoom: .9;
@@ -13,16 +32,19 @@
 	.otziv_client {
 		overflow-x: hidden;
 	}
-	footer .row,
-	.header_main .row,
-	main .row {
-		margin-right: 0px !important;
-		margin-left: 0px !important;
-	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.photo-congress .col-md-2 img {
+		width: 100%;
+	}
+	.sertificate-block .popup_img img {
+		width: 100%;
+	}
+	.no-pad {
+		padding: 0 !important;
+	}
 	.pl80 {
 		padding-left: 50px !important;
 	}
@@ -78,6 +100,37 @@
 }
 
 @media only screen and (max-width : 1060px) {
+	.testimonials-text {
+		width: 70%;
+	}
+	button.slick-prev.slick-arrow,
+	button.slick-next.slick-arrow {
+		background: rgba(255, 255, 255, 0.5) !important;
+		padding: 0;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+	}
+	button.slick-prev.slick-arrow:before {
+		left: 12px;
+		top: 7px;
+	}
+	button.slick-next.slick-arrow:before {
+		right: 0px;
+		top: 7px;
+	}
+	button.slick-prev.slick-arrow {
+		left: 5px !important;
+	}
+	.price-slide.slick-initialized.slick-slider {
+		padding: 0 5px 0 0;
+	}
+	.result-contant-img img {
+		width: 100%;
+	}
+	.result-contant {
+		padding-top: 0;
+	}
 	.pl80 {
 		padding-left: 20px !important;
 	}
@@ -117,6 +170,31 @@
 }
 
 @media only screen and (max-width : 1024px){
+	.testimonials-block-img img {
+		margin-bottom: 10px;
+	}
+	.testimonials-text {
+		width: 60%;
+	}
+	.tab-text h4 {
+		font-size: 14px;
+	}
+	img.icon-partner {
+		width: 100%;
+	}
+	.your-tooth {
+		background-position-x: -175px;
+	}
+	.excerpt {
+		font: 14px/18px "RobotoRegular";
+	}
+	.blog-name-post {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.content-foot {
+		bottom: 20px;
+	}
 	body {
 		zoom: 1;
 	}
@@ -168,6 +246,29 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 980px) {
+	.price-slide-item h2 {
+		font: 30px/34px "Panton-ExtraBold";
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.post-h3 br {
+		display: none;
+	}
+	img.icon-partner {
+		width: auto;
+	}
+	.item-partner {
+		margin-bottom: 20px;
+	}
+	.main-idea-item {
+		margin: 0 auto 34px;
+	}
+	.your-tooth {
+		background-position-x: -210px;
+	}
+	.right-sidebar {
+		margin-bottom: 20px;
+	}
 	.priziv .col-md-3 {
 		width: 33%;
 		float: left;
@@ -217,6 +318,22 @@
 }
 
 @media only screen and (max-width : 854px){
+	.testimonials-text {
+		width: 56%;
+	}
+	.price-slide-item h2 {
+		font: 24px/28px "Panton-ExtraBold";
+	}
+	.price-slide-item .buttom_style_white {
+		bottom: 10px;
+	}
+	.style-posts {
+		font: 16px/20px "Panton-Bold";
+	}
+	.my-ofset {
+		width: 60% !important;
+		margin-left: 40% !important;
+	}
 	.header_main h1 {
 		font: 30px/50px "Panton-ExtraBold";
 	}
@@ -250,11 +367,70 @@
 }
 
 @media only screen and (max-width : 800px){
-
+	.testimonials-text {
+		width: 52%;
+	}
+	.buttom_style_white {
+		max-width: 470px;
+	}
+	.sertificate p br {
+		display: none;
+	}
+	.my-ofset {
+		width: 100% !important;
+		margin-left: 0% !important;
+	}
+	.content-foot {
+		bottom: 8px;
+	}
+	.your-tooth {
+		background-image: none;
+	}
+	.your-tooth__content {
+		margin: 35px 0;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.testimonials-text {
+		width: 62%;
+	}
+	.price-slide-item .buttom_style_white {
+		bottom: 20px;
+	}
+	.result-job {
+		padding-bottom: 0px;
+	}
+	.our-team-wrapper {
+		padding-left: 0;
+	}
+	.name-page {
+		padding: 60px 0 20px 0;
+	}
+	.bglog-page .col-md-6.col-sm-6 {
+		float: none !important;
+		margin: 10px auto;
+		display: block;
+		max-width: 385px;
+		width: 100%;
+	}
+	.blog-name-post {
+		font-size: 15px;
+		margin-bottom: 12px;
+	}
+	.excerpt {
+		font: 15px/24px "RobotoRegular";
+	}
+	.content-foot {
+		bottom: 20px;
+	}
+	.tab-answers.pl80,
+	.blog-wrapper.pl80,
+	.sertificate-block.pl80,
+	.advantage.pl80 {
+		padding-left: 0 !important;
+	}
 	.closed_menu{
 		display: block;
 	}
@@ -273,16 +449,41 @@
 	.pl80 {
 		padding-left: 15px !important;
 	}
+	.result-job {
+		padding-left: 0 !important;
+	}
 	.header_main {
 		padding: 50px 0 65px 15px;
+	}
+	.brand-default {
+		//padding: 0 15px !important;
 	}
 }
 
 @media only screen and (max-width : 720px){
-
+	.resultpost {
+		margin-bottom: 20px;
+	}
+	.result-contant-img {
+		padding: 0 15px !important;
+		width: 22%;
+		float: left;
+	}
+	.result-contant {
+		width: 78%;
+	}
+	.name-page h1 {
+		font-size: 38px;
+	}
+	.name-page {
+		padding: 75px 0 20px 0;
+	}
 }
 
-@media only screen and (max-width : 640px){
+@media only screen and (max-width : 640px) {
+	.testimonials-text {
+		width: 54%;
+	}
 	.sertificate .col-md-2 {
 		width: 33%;
 		padding: 0 10px !important;
@@ -291,12 +492,73 @@
 }
 
 @media only screen and (max-width : 600px){
-
+	.testimonials-block-img img {
+		float: none;
+		margin-right: 0;
+		margin: 0 auto;
+		display: block;
+	}
+	.table-price-tbody td {
+		padding: 14px 0 15px 0px;
+		text-align: center;
+	}
+	.table-price-tbody th {
+		padding: 23px 0 21px 0px;
+		text-align: center;
+	}
+	.table-price-tbody td .check-ok:before {
+		display: none;
+	}
+	.table-top-name th {
+		font-weight: normal;
+		border-right: 1px solid #484848;
+		text-transform: uppercase;
+		padding: 14px 0 9px 0;
+		text-align: center;
+	}
+	.table-price-tbody td .check-ok {
+		padding-left: 0;
+	}
+	.tab-text {
+		padding: 25px 0 26px 15px;
+	}
 }
 
 @media only screen and (max-width : 540px){
+	.testimonials-img {
+		float: none;
+		margin-right: 0;
+		margin-bottom: 15px;
+		width: 100%;
+		text-align: center;
+	}
+	.testimonials-video {
+		min-height: auto;
+		height: 100%;
+	}
+	.testimonials-text {
+		width: 100%;
+	}
+	.testimonials .wrapper_contant_1170 {
+		padding: 0 10px;
+	}
+	.price-wrapper {
+		display: none;
+	}
+	.tab-text {
+		text-align: center;
+	}
+	.your-tooth__content:before {
+		border: 0;
+	}
+	.no-br-540 br {
+		display: none;
+	}
 	.pl80 {
 		padding-left: 0px !important;
+	}
+	.price-implant {
+		padding-left: 15px !important;
 	}
 	.header_main {
 		padding: 50px 0 65px 0px;
@@ -307,6 +569,9 @@
 }
 
 @media only screen and (max-width : 480px){
+	.name-page h1 {
+		font-size: 30px;
+	}
 	.header_main h1 {
 		font: 26px/50px "Panton-ExtraBold";
 	}
@@ -340,6 +605,28 @@
 }
 
 @media only screen and (max-width : 414px) {
+	.style-table-price tr td:first-child {
+		padding: 14px 0 15px 0px !important;
+		text-align: center;
+	}
+	.price-implant {
+		padding-left: 0px !important;
+	}
+	.partner-block .col-md-4.col-sm-4.col-xs-6 {
+		width: 100%;
+	}
+	.accordeon dt:before {
+		left: 12px;
+	}
+	.accordeon dt:after {
+		left: 16px;
+	}
+	.accordeon dt {
+		font-size: 14px;
+	}
+	.accordeon dt {
+		padding: 20px 0 19px 35px;
+	}
 	.buttom_style:before {
 		display: none;
 	}
@@ -355,6 +642,19 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 360px) {
+	.style-h3,
+	.style-span,
+	.otziv_client h3 {
+		font-size: 28px;
+		text-align: center;
+	}
+	.my-partner .col-xs-4 {
+		width: 50% !important;
+	}
+	.name-page h1 {
+		font-size: 26px;
+		text-align: center;
+	}
 	.advantage .col-md-3 {
 		width: 100%;
 		float: left;
@@ -382,6 +682,12 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.result-contant-img {
+		padding: 0 15px !important;
+		width: 100%;
+		float: left;
+		margin-bottom: 15px;
+	}
 	.header_main h1 {
 		font: 24px/45px "Panton-ExtraBold";
 	}
@@ -397,56 +703,4 @@
 	.sertificate p br {
 		display: none;
 	}
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-	
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	
-}
-
-@media only screen and (min-width : 854px){
-
-}
-
-@media only screen and (min-width : 900px){
-
-}
-
-@media only screen and (min-width : 901px){
-	
-}
-
-@media only screen and (min-width : 960px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 980px) {
-	
-}
-
-@media only screen and (min-width : 1024px){
-
-}
-
-@media only screen and (min-width : 1060px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
 }
