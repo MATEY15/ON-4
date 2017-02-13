@@ -1,15 +1,34 @@
 /*==========  Desktop First Method  ==========*/
 
-@media only screen and (max-width : 1366px) {
-	.slick-slide img {
-		width: 100%;
-	}
+@media only screen and (max-width : 1440px) {
 	header .row,
 	footer .row,
 	.header_main .row,
 	main .row {
 		margin-right: 0px !important;
 		margin-left: 0px !important;
+	}
+	.header_main {
+		background-image: url(../img/bg_head.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding: 40px 0 40px 50px;
+	}
+	.pl80 {
+		padding-left: 50px !important;
+	}
+}
+
+@media only screen and (max-width : 1400px) {
+	.main {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width : 1366px) {
+	.tehnology_all_4 .slick-slide img {
+		width: 100%;
 	}
 	.price-slide.slick-initialized.slick-slider {
 		padding: 0 60px 0 0;
@@ -20,14 +39,14 @@
 }
 
 @media only screen and (max-width : 1280px) {
+	span.slog_top {
+		font: 22px/32px "Panton-Regular";
+	}
 	body {
 		zoom: .9;
 	}
 	.header_main {
 		padding: 55px 0 100px 50px;
-	}
-	.pl80 {
-		padding-left: 50px !important;
 	}
 	.otziv_client {
 		overflow-x: hidden;
@@ -100,6 +119,10 @@
 }
 
 @media only screen and (max-width : 1060px) {
+	.play-go {
+		left: 135%;
+		top: 45px;
+	}
 	.testimonials-text {
 		width: 70%;
 	}
@@ -246,6 +269,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 980px) {
+	.play-go {
+		left: 50%;
+		margin-left: -70px;
+		top: 25px;
+	}
 	.price-slide-item h2 {
 		font: 30px/34px "Panton-ExtraBold";
 		color: #fff;
@@ -481,6 +509,9 @@
 }
 
 @media only screen and (max-width : 640px) {
+	.buttom_style {
+		font-size: 12px;
+	}
 	.testimonials-text {
 		width: 54%;
 	}
@@ -525,6 +556,12 @@
 }
 
 @media only screen and (max-width : 540px){
+	span.slog_top {
+		font: 18px/32px "Panton-Regular";
+	}
+	.play-go {
+		margin-left: -35px;
+	}
 	.testimonials-img {
 		float: none;
 		margin-right: 0;
@@ -569,11 +606,25 @@
 }
 
 @media only screen and (max-width : 480px){
+	.header_main h1 span br {
+		display: none;
+	}
+	.buttom_style {
+		font: 14px/24px "OpenSansBold";
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.buttom_style:before {
+		display: none;
+	}
 	.name-page h1 {
 		font-size: 30px;
 	}
 	.header_main h1 {
-		font: 26px/50px "Panton-ExtraBold";
+		font: 26px/40px "Panton-ExtraBold";
+		text-align: center;
 	}
 	.buttom_style {
 		font-size: 12px;

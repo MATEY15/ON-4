@@ -215,6 +215,36 @@ ul.green {
 	transition: all .4s ease-out;
 }
 
+.play-go {
+	font: 15px/normal "RobotoRegular";
+	font-style: italic;
+	position: absolute;
+	color: #8bad35;
+	text-decoration: none;
+	display: block;
+	width: 140px;
+	left: 65%;
+	top: 370px;
+}
+
+.play-go:before {
+	content: "";
+	display: block;
+	background-image: url(../img/play-go.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+	position: absolute;
+	left: -73px;
+	top: 2px;
+}
+
+.play-go:hover,
+.play-go:focus {
+	color: #8bad35;
+	text-decoration: none;
+}
+
 ul.green li a:before {
 	background: #5d7614;
 }
@@ -401,13 +431,15 @@ span.slog_top {
 	background: #5d7614;
 	color: #fff !important;
 	text-decoration: none !important;
-	max-width: 515px;
-	width: 100%;
+	//max-width: 515px;
+	//width: 100%;
 	display: inline-block;
 	text-align: center;
 	border-radius: 30px;
 	position: relative;
 	padding-left: 30px;
+	padding-left: 60px;
+	padding-right: 25px;
 }
 
 .buttom_style:before {
@@ -434,7 +466,7 @@ span.slog_top {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeff0', endColorstr='#e4eaec',GradientType=0 ); /* IE6-9 */
 }
 
-.priziv img {
+.priziv-img {
 	margin-bottom: 12px;
 }
 
@@ -477,9 +509,10 @@ span.slog_top {
 }
 
 .what_is_all {
-	background-image: url(../img/img_what_allon4.jpg);
+	background-image: url(../img/img_what_allon4-2.jpg);
 	background-repeat: no-repeat;
 	background-position: right center;
+	min-height: 410px;
 }
 
 .advantage {
@@ -623,9 +656,9 @@ span.slog_top {
 }
 
 .what_are_you {
-	background: url(../img/what_are_you1.jpg);
+	background: #4d4e4d url(../img/what_are_you.jpg);
 	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-position: 900px 0;
 	padding: 116px 0 90px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -741,6 +774,7 @@ p.sert_txt span {
 
 .otziv_client {
 	padding: 92px 0 93px;
+	overflow: hidden;
 }
 
 .otziv_client p {
@@ -2030,4 +2064,40 @@ tr .sub-th:last-child {
 	font: 16px/26px "RobotoLight";
 	color: #647182;
 	margin-bottom: 25px;
+}
+
+.priem {
+	padding: 160px 0 174px;
+	background-image: url(../img/bg-priem.jpg);
+	background-repeat: no-repeat;
+	background-position: 600px center;
+}
+
+.priem-h3 {
+	font: 28px/normal "Panton-SemiBold";
+	color: #293c57;
+	text-transform: uppercase;
+}
+
+.priem-h3 span {
+	font-family: "Panton-Bold";
+	color: #8bad35;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+ol.list-number li::before {
+	content: counter(num) ') '; /* Выводим число */
+counter-increment: num; /* Увеличиваем значение счётчика */
+font: 15px/normal "RobotoRegular";
+color: #8bad35;
+font-weight: bold;
+}
+
+.priem .list-number {
+	margin: 37px 0 37px;
+}
+
+.etapi {
+	font-size: 18px;
 }

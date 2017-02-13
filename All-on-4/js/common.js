@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+
 
 	$(".accordeon dd").hide().prev().click(function() {
 		$(this).parents(".accordeon").find("dd").not(this).slideUp().prev().removeClass("active");
@@ -172,9 +182,15 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		asNavFor: '.slider-for',
 		arrows: false,
-		dots: true,
+		dots: false,
 		focusOnSelect: true,
 		responsive: [
+		{
+			breakpoint: 1441,
+			settings: {
+				slidesToShow: 10
+			}
+		},
 		{
 			breakpoint: 1201,
 			settings: {
